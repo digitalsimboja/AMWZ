@@ -42,5 +42,38 @@ export const data = [
         "zipcode": 22549,
         "date": "Jan 6, 2022"
 
+    },
+    {
+        "id": 5,
+        "subscription": "Premium",
+        "property": "Digital Village",
+        "amenities": 15,
+        "city": "New Jersey",
+        "state": "New York",
+        "zipcode": 22569,
+        "date": "Feb 6, 2022"
+
+    },
+    {
+        "id": 6,
+        "subscription": "Standard",
+        "property": "Crescent Drive",
+        "amenities": 11,
+        "city": "Otigba",
+        "state": "Ohio",
+        "zipcode": 22439,
+        "date": "Mar 4, 2022"
+
+    },
+    {
+        "id": 7,
+        "subscription": "Enterprise",
+        "property": "Digital Drive",
+        "amenities": 4,
+        "city": "Omigse",
+        "state": "OhFloridao",
+        "zipcode": 28939,
+        "date": "Dec 4, 2022"
+
     }
 ]

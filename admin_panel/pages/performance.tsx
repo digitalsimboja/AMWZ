@@ -67,7 +67,7 @@ export default function Performance() {
             </div>
           </div>
           <div className="p-4 ">
-          <div className="w-full m-auto  overflow-y-auto bg-gray-400">
+          <div className="w-full m-auto  overflow-scroll bg-gray-400">
               <div className="grid md:grid-cols-7 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer">
                 <span className="text-center">Subscription</span>
                 <span className="text-center">Property</span>
