@@ -67,15 +67,15 @@ export default function Performance() {
             </div>
           </div>
           <div className="p-4 ">
-          <div className="w-full m-auto overflow-y-auto bg-gray-400">
+          <div className="w-full m-auto  overflow-y-auto bg-gray-400">
               <div className="grid md:grid-cols-7 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer">
                 <span className="text-center">Subscription</span>
                 <span className="text-center">Property</span>
-                <span className="hidden md:grid text-center">Amenities</span>
-                <span className="hidden sm:grid text-center">City</span>
-                <span className="hidden md:grid text-center">State</span>
-                <span className="hidden md:grid text-center">Zipcode</span>
-                <span className="hidden md:grid text-center">Date</span>
+                <span className="hidden sm:overflow-x-auto  md:grid text-center">Amenities</span>
+                <span className="hidden sm:overflow-x-auto  sm:grid text-center">City</span>
+                <span className="hidden sm:overflow-x-auto  md:grid text-center">State</span>
+                <span className="hidden sm:overflow-x-auto  md:grid text-center">Zipcode</span>
+                <span className="hidden sm:overflow-x-auto  md:grid text-center">Date</span>
               </div>
             </div>
             <ul className="p-4">
@@ -86,11 +86,11 @@ export default function Performance() {
                 >
                   <p className="text-center">{metric.subscription}</p>
                   <p className="text-center">{metric.property}</p>
-                  <p className="hidden md:block text-center">{metric.amenities}</p>
-                  <p className="hidden sm:block text-center">{metric.city}</p>
-                  <p className="hidden md:block text-center">{metric.state}</p>
-                  <p className="hidden md:block text-center">{metric.zipcode}</p>
-                  <p className="hidden md:block text-center">{metric.date}</p>
+                  <p className="hidden sm:overflow-x-auto  md:block text-center">{metric.amenities}</p>
+                  <p className="hidden sm:overflow-x-auto sm:block text-center">{metric.city}</p>
+                  <p className="hidden sm:overflow-x-auto  md:block text-center">{metric.state}</p>
+                  <p className="hidden sm:overflow-x-auto md:block text-center">{metric.zipcode}</p>
+                  <p className="hidden sm:overflow-x-auto  md:block text-center">{metric.date}</p>
                 </li>
               ))}
             </ul>
