@@ -1,9 +1,7 @@
-#FFBC16
-#F3F3F3
-#C2C2C2
+# Admin Panel
 
-Front end design ( React JS )
-Node Js API development and integration with front end and database
-Database setup
-testing
-Admin Setup and data show
+![ecom_dashboard](https://github.com/digitalsimboja/AMWZ/assets/32062279/82971f23-dc67-46a6-a916-2764fb6d0e4f)
+
+## Customers Page
+
+![customers_page](https://github.com/digitalsimboja/AMWZ/assets/32062279/03f4576e-2aa1-4097-b52f-31aa087c149a)
